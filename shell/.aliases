@@ -1,0 +1,35 @@
+alias _="sudo"
+
+
+# docker
+alias dcl="docker-compose -f docker-compose.yml -f docker-compose.local.yml"
+
+
+# git
+alias g="git"
+
+alias ga="git add"
+
+alias gb="git branch"
+
+alias gco="git checkout"
+alias gcb="git checkout -b"
+
+alias gcsm="git commit -s -m"
+
+alias gd="git diff"
+alias gdc="git diff --cached"
+
+alias gfa="git fetch --all --prune"
+
+alias gup="git pull --rebase"
+
+alias gpsup="git push --set-upstream origin"
+
+alias gsta="git stash apply"
+alias gstd="git stash drop"
+alias gstl="git stash list"
+alias gstp="git stash pop"
+alias gsts="git stash save"
+
+alias gst="git status"
