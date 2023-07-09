@@ -1,0 +1,11 @@
+[user]
+  name = account
+  username = account
+  email = email
+  signingkey = key
+[core]
+  editor = vim
+[commit]
+  gpgsign = true
+[diff]
+  tool = vimdiff
